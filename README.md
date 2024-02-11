@@ -1,7 +1,5 @@
 # MERN Stack Bookstore Project
 
-Welcome to the MERN Stack Bookstore Project! In this tutorial, you will learn how to build a full-stack web application using the MERN stack – MongoDB, Express.js, React.js, and Node.js. This powerful combination of technologies enables you to create modern and efficient web applications.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
