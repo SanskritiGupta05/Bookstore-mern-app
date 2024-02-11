@@ -17,6 +17,36 @@ The MERN Stack Bookstore project covers the creation of a MongoDB database to st
 The project is organized into two main directories: `frontend` and `backend`. Each directory has its own set of files and subdirectories.
 
 ### Frontend
+
+```
+└── Frontend/
+    ├── src/
+    │   ├── assets
+    │   ├── components/
+    │   │   ├── home/
+    │   │   │   ├── BookModal.jsx
+    │   │   │   ├── BooksCard.jsx
+    │   │   │   ├── BookSingleCard.jsx
+    │   │   │   └── BooksTable.jsx
+    │   │   ├── BackButton.jsx
+    │   │   └── Spinner.jsx
+    │   ├── pages/
+    │   │   ├── CreateBooks.jsx
+    │   │   ├── DeleteBooks.jsx
+    │   │   ├── EditBooks.jsx
+    │   │   ├── Home.jsx
+    │   │   └── ShowBooks.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── tailwind.config.js
+    ├── vite.config.js
+    └── node_modules
+```
+
 - **src/assets**: Contains assets such as images, stylesheets, etc.
 - **src/components**: Reusable React components used throughout the application.
   - **home**: Components specific to the home page.
@@ -30,6 +60,19 @@ The project is organized into two main directories: `frontend` and `backend`. Ea
 - **node_modules**: Node.js dependencies.
 
 ### Backend
+
+```
+└── backend/
+    ├── config.js
+    ├── index.js
+    ├── package-lock.json
+    ├── package.json
+    ├── node-modules
+    ├── models/
+    │   └── bookModels.js
+    └── routes/
+        └── bookRoute.js
+```
 - **config.js**: Configuration file for the backend.
 - **index.js**: Main entry point for the backend server.
 - **package-lock.json, package.json**: Node.js package files.
